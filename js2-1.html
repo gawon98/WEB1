@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+    //객체의 속성과 메서드를 표현
+    var hgd={
+    //속성정의
+    'list':{
+    'name':'honggildong',
+    'age':28,
+    'gender':'m'},
+    //메서드 정의
+    'show':function(){
+    for (var n in this.list){
+        document.write(n+":"+this.list[n]+"<br/>");
+    }
+    }
+    };
+    hgd.show();
+
+
+    /*
+    var hgd=new Object();
+     hgd['name']='honggildong';
+    hgd['age']=28;
+    hgd['gender']='m';
+
+    for (k in hgd){
+    document.write(hgd[k]+"<br/>")
+    }
+    */
+
+    //new 클래스명
+    //new Object();
+    //이순신=new 사람();
+
+/*
+    var hgd={};
+    hgd['name']='honggildong';
+    hgd['age']=28;
+    hgd['gender']='m';
+    document.write(hgd['name']);
+
+    var hgd={
+    'name':'honggildong',
+    'age':28,
+    'gender':'m',
+    };
+     document.write(hgd['name']);
+*/
+
+    /*
+    var arr=[1,2,3,4];
+    document.write(arr.indexOf(3)); //3이라는 자료의 인덱스(0번부터)를 출력
+*/
+/*
+    var fruits=['apple','banana','orange'];
+    //fruits.sort(); //오름차순 정렬
+    fruits.reverse(); //내림차순 정렬
+    document.write(fruits+"<br/>");
+*/
+    /*
+    var v=fruits.splice(1,2);
+    document.write(v+"<br/>");
+    document.write(fruits+"<br/>");
+*/
+    /*
+        var arr=[1,2,3,4];
+        arr.unshift(999); //맨 앞에 데이터 추가
+        alert(arr);
+        document.write(arr.shift()+"<br/>"); //맨 앞의 데이터 제거
+        document.write(arr)
+*/
+
+
+        //alert(arr.length);
+        /*
+        arr.push(5)
+        alert(arr);
+        p=arr.pop();
+        document.write(p);
+        */
+    </script>
+</head>
+<body>
+
+</body>
+</html>
